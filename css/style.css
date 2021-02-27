@@ -1,0 +1,44 @@
+
+/* Add some root variables! */
+root: {
+
+}
+
+* {
+    border: 1px solid black;
+}
+
+body {
+    background-color:rgb(100, 100, 108);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color:rgb(232, 3, 244);
+    margin: 20px;
+}
+
+.box-header {
+    text-align: center;
+    background-color: rgb(100, 100, 108);
+    color: white;
+    margin: 0 auto;
+    border: 1px solid white;
+    position: relative;
+    top: -10px;
+    width: 90%;
+}
+
+.row1 {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-row1 {
+    height: 200px;
+    width: 30%;
+    border: 1px dashed white;
+    display: inline-block;
+}
